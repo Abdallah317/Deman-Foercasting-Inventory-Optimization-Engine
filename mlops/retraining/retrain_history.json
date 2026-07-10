@@ -1,0 +1,17 @@
+[
+  {
+    "version": "20260629_213947",
+    "timestamp": "2026-06-29T21:39:48.057576",
+    "lgb_metrics": {
+      "MAE": 82.86,
+      "RMSE": 106.1,
+      "MAPE": 3.16
+    },
+    "xgb_metrics": {
+      "MAE": 85.59,
+      "RMSE": 110.15,
+      "MAPE": 3.29
+    },
+    "backup_dir": "C:\\Users\\PC\\Desktop\\DEPI's Grduation Project\\Demand_Forecasting_Engine\\mlops\\retraining\\version_20260629_213947"
+  }
+]

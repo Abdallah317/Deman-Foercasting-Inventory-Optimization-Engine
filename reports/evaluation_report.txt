@@ -1,0 +1,32 @@
+============================================================
+   MILESTONE 2 – FORECAST MODEL EVALUATION REPORT
+============================================================
+
+Models Trained:
+  1. SARIMA(1,1,1)(1,1,1,7) – Statistical time-series
+  2. XGBoost – Gradient boosted trees
+  3. LightGBM – Light gradient boosting
+  4. LSTM(128-64-32) – Deep learning
+
+Test Set: Last 90 days (Oct–Dec 2023)
+
+------------------------------------------------------------
+Model               MAE       RMSE       MAPE
+------------------------------------------------------------
+SARIMA          1875.64    2449.89     12.96%
+XGBoost           87.65     111.02      3.38%
+LightGBM          82.64     106.05      3.15%
+LSTM             633.80    1012.11      4.65%
+------------------------------------------------------------
+
+ Best Model by MAPE: LightGBM (3.15%)
+
+Observations:
+  • ML models (XGBoost/LightGBM) outperform SARIMA on MAPE
+  • LSTM achieves competitive MAPE with deep temporal learning
+  • SARIMA best for interpretability & explainability
+  • LightGBM recommended for production (speed + accuracy)
+
+Recommendation: Deploy LightGBM as primary model.
+Use SARIMA as baseline and LSTM for ensemble.
+============================================================

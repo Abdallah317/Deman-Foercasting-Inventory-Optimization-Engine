@@ -1,0 +1,54 @@
+{
+  "milestone": "Milestone 4 \u2013 Retrained Models",
+  "retrain_date": "2026-06-29T21:39:48.054072",
+  "version": "20260629_213947",
+  "models": {
+    "LightGBM": {
+      "model": "LightGBM",
+      "metrics": {
+        "MAE": 82.86,
+        "RMSE": 106.1,
+        "MAPE": 3.16
+      }
+    },
+    "XGBoost": {
+      "model": "XGBoost",
+      "metrics": {
+        "MAE": 85.59,
+        "RMSE": 110.15,
+        "MAPE": 3.29
+      }
+    }
+  },
+  "best_model": "LightGBM",
+  "recommendation": "LightGBM for production",
+  "features_used": [
+    "month",
+    "week",
+    "day_of_week",
+    "quarter",
+    "is_weekend",
+    "is_promotion",
+    "is_holiday",
+    "price",
+    "stock_level",
+    "month_sin",
+    "month_cos",
+    "dayofweek_sin",
+    "dayofweek_cos",
+    "lag_1",
+    "lag_7",
+    "lag_14",
+    "lag_28",
+    "rolling_mean_7",
+    "rolling_mean_14",
+    "rolling_mean_28",
+    "rolling_std_7",
+    "rolling_std_28",
+    "store_type_enc",
+    "category_enc",
+    "price_discount",
+    "stockout_flag",
+    "year"
+  ]
+}

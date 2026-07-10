@@ -1,0 +1,18 @@
+{
+  "XGBoost": {
+    "model": "XGBoost",
+    "metrics": {
+      "MAE": 87.65,
+      "RMSE": 111.02,
+      "MAPE": 3.38
+    }
+  },
+  "LightGBM": {
+    "model": "LightGBM",
+    "metrics": {
+      "MAE": 82.64,
+      "RMSE": 106.05,
+      "MAPE": 3.15
+    }
+  }
+}
